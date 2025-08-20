@@ -1,0 +1,1 @@
+from .publicacao import PublicacaoCreate, PublicacaoOut
