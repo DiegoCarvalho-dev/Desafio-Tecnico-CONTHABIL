@@ -1,0 +1,774 @@
+2025-08-20 16:44:12,760 - WDM - INFO - ====== WebDriver manager ======
+2025-08-20 16:44:13,583 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:44:13,955 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:44:14,304 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-08-20 16:48:50,719 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-20 16:48:50,719 - WDM - INFO - ====== WebDriver manager ======
+2025-08-20 16:48:51,560 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:48:51,924 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:48:52,277 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-08-20 16:48:52,278 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32\chromedriver.exe
+2025-08-20 16:48:54,913 - __main__ - INFO - Driver configurado com sucesso
+2025-08-20 16:48:54,914 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-20 16:48:59,279 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-20 16:48:59,386 - __main__ - INFO - Screenshot salvo em page_screenshot.png
+2025-08-20 16:48:59,386 - __main__ - INFO - Analisando estrutura da página...
+2025-08-20 16:48:59,395 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-20 16:48:59,480 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-20 16:48:59,940 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_1.pdf (331903 bytes)
+2025-08-20 16:49:01,674 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:03,317 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-20 16:49:03,762 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_2.pdf (347648 bytes)
+2025-08-20 16:49:05,725 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:07,823 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-20 16:49:08,333 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_3.pdf (158218 bytes)
+2025-08-20 16:49:10,032 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:12,778 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-20 16:49:13,921 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_4.pdf (381335 bytes)
+2025-08-20 16:49:15,994 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:17,622 - __main__ - INFO - Processando link 5: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250816_especial_fdfc14ba09092a9d040dafe20e07d3a4.pdf
+2025-08-20 16:49:18,075 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_5.pdf (190544 bytes)
+2025-08-20 16:49:19,907 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:22,162 - __main__ - INFO - Processando link 6: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_1f1c3818e7a4738b85de80dd8fe4f1ae.pdf
+2025-08-20 16:49:23,156 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_6.pdf (365850 bytes)
+2025-08-20 16:49:25,196 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:28,086 - __main__ - INFO - Processando link 7: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_3181acb9535b12643e07c5bbd221a851.pdf
+2025-08-20 16:49:28,530 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_7.pdf (334551 bytes)
+2025-08-20 16:49:30,447 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:31,678 - __main__ - INFO - Processando link 8: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_de60d201a5c66120318e20bf2a4d7110.pdf
+2025-08-20 16:49:32,177 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_8.pdf (597475 bytes)
+2025-08-20 16:49:34,482 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:36,062 - __main__ - INFO - Processando link 9: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_eb90c2647dda78d51a8ecc73b8389e7d.pdf
+2025-08-20 16:49:36,490 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_9.pdf (300943 bytes)
+2025-08-20 16:49:38,605 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:41,370 - __main__ - INFO - Processando link 10: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250811_fead416175bea9f25ed3aa71bba595e5.pdf
+2025-08-20 16:49:42,060 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_10.pdf (387715 bytes)
+2025-08-20 16:49:44,247 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:46,920 - __main__ - INFO - Processando link 11: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 16:49:47,467 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_11.pdf (428177 bytes)
+2025-08-20 16:49:49,562 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:52,460 - __main__ - INFO - Processando link 12: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 16:49:52,944 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_12.pdf (273292 bytes)
+2025-08-20 16:49:54,774 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:49:57,774 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 16:49:58,731 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_2024_08_13.pdf (106646 bytes)
+2025-08-20 16:50:00,568 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:50:01,888 - __main__ - INFO - Processamento concluído. 0 arquivos processados com sucesso
+2025-08-20 16:53:40,783 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-20 16:53:40,783 - WDM - INFO - ====== WebDriver manager ======
+2025-08-20 16:53:41,635 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:53:42,003 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:53:42,362 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-08-20 16:53:42,362 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32\chromedriver.exe
+2025-08-20 16:53:43,802 - __main__ - INFO - Driver configurado com sucesso
+2025-08-20 16:53:43,802 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-20 16:53:48,526 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-20 16:53:48,526 - __main__ - INFO - Analisando estrutura da página...
+2025-08-20 16:53:48,539 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-20 16:53:48,561 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-20 16:53:48,964 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_1.pdf (331903 bytes)
+2025-08-20 16:53:50,972 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:53:53,691 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-20 16:53:54,102 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_2.pdf (347648 bytes)
+2025-08-20 16:53:56,019 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:53:58,596 - __main__ - ERROR - Erro ao processar link 3: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.138)
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963f63]
+	(No symbol) [0x0x9538e0]
+	(No symbol) [0x0x971709]
+	(No symbol) [0x0x9d7e4c]
+	(No symbol) [0x0x9f24d9]
+	(No symbol) [0x0x9d12d6]
+	(No symbol) [0x0x9a0910]
+	(No symbol) [0x0x9a1784]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	GetHandleVerifier [0x0xb77ad8+96840]
+	GetHandleVerifier [0x0xb77c62+97234]
+	GetHandleVerifier [0x0xb6277a+9962]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,696 - __main__ - ERROR - Erro ao processar link 4: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,698 - __main__ - ERROR - Erro ao processar link 5: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,700 - __main__ - ERROR - Erro ao processar link 6: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,701 - __main__ - ERROR - Erro ao processar link 7: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,703 - __main__ - ERROR - Erro ao processar link 8: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,705 - __main__ - ERROR - Erro ao processar link 9: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,707 - __main__ - ERROR - Erro ao processar link 10: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,709 - __main__ - ERROR - Erro ao processar link 11: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,712 - __main__ - ERROR - Erro ao processar link 12: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,714 - __main__ - ERROR - Erro ao processar link 13: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:53:58,714 - __main__ - INFO - Processamento concluído. 0 arquivos processados com sucesso
+2025-08-20 16:54:07,146 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-20 16:54:07,147 - WDM - INFO - ====== WebDriver manager ======
+2025-08-20 16:54:08,302 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:54:08,782 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:54:09,242 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-08-20 16:54:09,242 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32\chromedriver.exe
+2025-08-20 16:54:10,348 - __main__ - INFO - Driver configurado com sucesso
+2025-08-20 16:54:10,348 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-20 16:54:14,669 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-20 16:54:14,669 - __main__ - INFO - Analisando estrutura da página...
+2025-08-20 16:54:14,679 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-20 16:54:14,699 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-20 16:54:15,128 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_1_1.pdf (331903 bytes)
+2025-08-20 16:54:17,110 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:19,802 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-20 16:54:20,260 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_2_1.pdf (347648 bytes)
+2025-08-20 16:54:22,374 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:24,378 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-20 16:54:24,784 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_3.pdf (158218 bytes)
+2025-08-20 16:54:26,766 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:28,307 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-20 16:54:29,562 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_4.pdf (381335 bytes)
+2025-08-20 16:54:31,588 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:33,594 - __main__ - INFO - Processando link 5: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250816_especial_fdfc14ba09092a9d040dafe20e07d3a4.pdf
+2025-08-20 16:54:33,962 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250816_5.pdf (190544 bytes)
+2025-08-20 16:54:35,662 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:37,311 - __main__ - INFO - Processando link 6: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_1f1c3818e7a4738b85de80dd8fe4f1ae.pdf
+2025-08-20 16:54:37,799 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250815_6.pdf (365850 bytes)
+2025-08-20 16:54:39,718 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:42,379 - __main__ - INFO - Processando link 7: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_3181acb9535b12643e07c5bbd221a851.pdf
+2025-08-20 16:54:43,047 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250814_7.pdf (334551 bytes)
+2025-08-20 16:54:44,877 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:46,881 - __main__ - INFO - Processando link 8: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_de60d201a5c66120318e20bf2a4d7110.pdf
+2025-08-20 16:54:47,333 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250813_8.pdf (597475 bytes)
+2025-08-20 16:54:49,531 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:50,851 - __main__ - INFO - Processando link 9: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_eb90c2647dda78d51a8ecc73b8389e7d.pdf
+2025-08-20 16:54:51,343 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250812_9.pdf (300943 bytes)
+2025-08-20 16:54:53,144 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:54:56,928 - __main__ - INFO - Processando link 10: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250811_fead416175bea9f25ed3aa71bba595e5.pdf
+2025-08-20 16:54:57,890 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250811_10.pdf (387715 bytes)
+2025-08-20 16:54:59,950 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:55:01,110 - __main__ - INFO - Processando link 11: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 16:55:01,110 - __main__ - INFO - Link 11 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 16:55:01,126 - __main__ - INFO - Processando link 12: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 16:55:01,126 - __main__ - INFO - Link 12 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 16:55:01,144 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 16:55:01,144 - __main__ - INFO - Link 13 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 16:55:01,144 - __main__ - INFO - Processamento concluído. 0 arquivos processados com sucesso
+2025-08-20 16:59:11,253 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-20 16:59:11,253 - WDM - INFO - ====== WebDriver manager ======
+2025-08-20 16:59:12,342 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:59:12,861 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 16:59:13,299 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-08-20 16:59:13,300 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32\chromedriver.exe
+2025-08-20 16:59:14,872 - __main__ - INFO - Driver configurado com sucesso
+2025-08-20 16:59:14,872 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-20 16:59:19,308 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-20 16:59:19,309 - __main__ - INFO - Analisando estrutura da página...
+2025-08-20 16:59:19,326 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-20 16:59:19,442 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-20 16:59:20,060 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_1_2.pdf (331903 bytes)
+2025-08-20 16:59:22,206 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:59:24,994 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-20 16:59:25,651 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_2_2.pdf (347648 bytes)
+2025-08-20 16:59:27,991 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:59:30,809 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-20 16:59:31,939 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_3_1.pdf (158218 bytes)
+2025-08-20 16:59:33,498 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:59:35,902 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-20 16:59:36,395 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_4_1.pdf (381335 bytes)
+2025-08-20 16:59:38,680 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 16:59:40,388 - __main__ - ERROR - Erro ao processar link 5: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=139.0.7258.138)
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963f63]
+	(No symbol) [0x0x9538e0]
+	(No symbol) [0x0x971709]
+	(No symbol) [0x0x9d7e4c]
+	(No symbol) [0x0x9f24d9]
+	(No symbol) [0x0x9d12d6]
+	(No symbol) [0x0x9a0910]
+	(No symbol) [0x0x9a1784]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	GetHandleVerifier [0x0xb77ad8+96840]
+	GetHandleVerifier [0x0xb77c62+97234]
+	GetHandleVerifier [0x0xb6277a+9962]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,527 - __main__ - ERROR - Erro ao processar link 6: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,530 - __main__ - ERROR - Erro ao processar link 7: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,534 - __main__ - ERROR - Erro ao processar link 8: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,537 - __main__ - ERROR - Erro ao processar link 9: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,540 - __main__ - ERROR - Erro ao processar link 10: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,544 - __main__ - ERROR - Erro ao processar link 11: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,548 - __main__ - ERROR - Erro ao processar link 12: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,550 - __main__ - ERROR - Erro ao processar link 13: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb6ffc3+65331]
+	GetHandleVerifier [0x0xb70004+65396]
+	(No symbol) [0x0x963dc0]
+	(No symbol) [0x0x99fbd8]
+	(No symbol) [0x0x9d1396]
+	(No symbol) [0x0x9ccf70]
+	(No symbol) [0x0x9cc4f6]
+	(No symbol) [0x0x9359b5]
+	(No symbol) [0x0x935f0e]
+	(No symbol) [0x0x93639d]
+	GetHandleVerifier [0x0xdb38b3+2439203]
+	GetHandleVerifier [0x0xdaeae2+2419282]
+	GetHandleVerifier [0x0xb9712a+225434]
+	GetHandleVerifier [0x0xb86e08+159096]
+	GetHandleVerifier [0x0xb8dd5d+187597]
+	(No symbol) [0x0x935680]
+	(No symbol) [0x0x934e8e]
+	GetHandleVerifier [0x0xeca2ec+3580508]
+	BaseThreadInitThunk [0x0x75995d49+25]
+	RtlInitializeExceptionChain [0x0x775cd2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x775cd281+561]
+
+2025-08-20 16:59:40,551 - __main__ - INFO - Processamento concluído. 0 arquivos processados com sucesso
+2025-08-20 18:32:42,313 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-20 18:32:42,314 - WDM - INFO - ====== WebDriver manager ======
+2025-08-20 18:32:43,682 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 18:32:44,282 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 18:32:44,951 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-08-20 18:32:44,952 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32\chromedriver.exe
+2025-08-20 18:32:48,135 - __main__ - INFO - Driver configurado com sucesso
+2025-08-20 18:32:48,135 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-20 18:32:54,104 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-20 18:32:54,104 - __main__ - INFO - Analisando estrutura da página...
+2025-08-20 18:32:54,119 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-20 18:32:54,253 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-20 18:32:54,876 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_1_3.pdf (331903 bytes)
+2025-08-20 18:32:58,172 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:00,637 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-20 18:33:01,289 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_2_3.pdf (347648 bytes)
+2025-08-20 18:33:03,521 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:06,526 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-20 18:33:07,245 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_3_2.pdf (158218 bytes)
+2025-08-20 18:33:09,075 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:11,231 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-20 18:33:11,821 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_4_2.pdf (381335 bytes)
+2025-08-20 18:33:14,173 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:16,821 - __main__ - INFO - Processando link 5: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250816_especial_fdfc14ba09092a9d040dafe20e07d3a4.pdf
+2025-08-20 18:33:17,420 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250816_5_1.pdf (190544 bytes)
+2025-08-20 18:33:21,074 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:22,474 - __main__ - INFO - Processando link 6: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_1f1c3818e7a4738b85de80dd8fe4f1ae.pdf
+2025-08-20 18:33:22,993 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250815_6_1.pdf (365850 bytes)
+2025-08-20 18:33:25,174 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:27,084 - __main__ - INFO - Processando link 7: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_3181acb9535b12643e07c5bbd221a851.pdf
+2025-08-20 18:33:27,712 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250814_7_1.pdf (334551 bytes)
+2025-08-20 18:33:29,955 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:31,596 - __main__ - INFO - Processando link 8: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_de60d201a5c66120318e20bf2a4d7110.pdf
+2025-08-20 18:33:32,301 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250813_8_1.pdf (597475 bytes)
+2025-08-20 18:33:36,990 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:39,968 - __main__ - INFO - Processando link 9: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_eb90c2647dda78d51a8ecc73b8389e7d.pdf
+2025-08-20 18:33:40,573 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250812_9_1.pdf (300943 bytes)
+2025-08-20 18:33:42,637 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:44,603 - __main__ - INFO - Processando link 10: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250811_fead416175bea9f25ed3aa71bba595e5.pdf
+2025-08-20 18:33:45,267 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250811_10_1.pdf (387715 bytes)
+2025-08-20 18:33:47,553 - __main__ - ERROR - Falha ao enviar para 0x0.st: 403 - User agent not allowed.
+2025-08-20 18:33:49,683 - __main__ - INFO - Processando link 11: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 18:33:49,684 - __main__ - INFO - Link 11 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 18:33:49,734 - __main__ - INFO - Processando link 12: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 18:33:49,735 - __main__ - INFO - Link 12 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 18:33:49,804 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 18:33:49,805 - __main__ - INFO - Link 13 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 18:33:49,806 - __main__ - INFO - Processamento concluído. 0 arquivos processados com sucesso
+2025-08-20 18:41:55,861 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-20 18:41:55,862 - WDM - INFO - ====== WebDriver manager ======
+2025-08-20 18:41:56,829 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 18:41:57,263 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 18:41:57,823 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-08-20 18:41:57,824 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32\chromedriver.exe
+2025-08-20 18:41:59,365 - __main__ - INFO - Driver configurado com sucesso
+2025-08-20 18:41:59,365 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-20 18:42:05,896 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-20 18:42:05,896 - __main__ - INFO - Analisando estrutura da página...
+2025-08-20 18:42:05,907 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-20 18:42:05,929 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-20 18:42:06,481 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_1_4.pdf (331903 bytes)
+2025-08-20 18:42:06,482 - __main__ - ERROR - Erro ao processar link 1: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:06,498 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-20 18:42:07,047 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_2_4.pdf (347648 bytes)
+2025-08-20 18:42:07,049 - __main__ - ERROR - Erro ao processar link 2: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:07,065 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-20 18:42:07,571 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_3_3.pdf (158218 bytes)
+2025-08-20 18:42:07,573 - __main__ - ERROR - Erro ao processar link 3: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:07,593 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-20 18:42:08,151 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_4_3.pdf (381335 bytes)
+2025-08-20 18:42:08,153 - __main__ - ERROR - Erro ao processar link 4: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:08,166 - __main__ - INFO - Processando link 5: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250816_especial_fdfc14ba09092a9d040dafe20e07d3a4.pdf
+2025-08-20 18:42:08,681 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250816_5_2.pdf (190544 bytes)
+2025-08-20 18:42:08,683 - __main__ - ERROR - Erro ao processar link 5: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:08,696 - __main__ - INFO - Processando link 6: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_1f1c3818e7a4738b85de80dd8fe4f1ae.pdf
+2025-08-20 18:42:09,151 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250815_6_2.pdf (365850 bytes)
+2025-08-20 18:42:09,152 - __main__ - ERROR - Erro ao processar link 6: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:09,167 - __main__ - INFO - Processando link 7: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_3181acb9535b12643e07c5bbd221a851.pdf
+2025-08-20 18:42:09,739 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250814_7_2.pdf (334551 bytes)
+2025-08-20 18:42:09,741 - __main__ - ERROR - Erro ao processar link 7: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:09,761 - __main__ - INFO - Processando link 8: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_de60d201a5c66120318e20bf2a4d7110.pdf
+2025-08-20 18:42:10,452 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250813_8_2.pdf (597475 bytes)
+2025-08-20 18:42:10,454 - __main__ - ERROR - Erro ao processar link 8: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:10,473 - __main__ - INFO - Processando link 9: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_eb90c2647dda78d51a8ecc73b8389e7d.pdf
+2025-08-20 18:42:11,185 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250812_9_2.pdf (300943 bytes)
+2025-08-20 18:42:11,187 - __main__ - ERROR - Erro ao processar link 9: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:11,211 - __main__ - INFO - Processando link 10: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250811_fead416175bea9f25ed3aa71bba595e5.pdf
+2025-08-20 18:42:11,829 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250811_10_2.pdf (387715 bytes)
+2025-08-20 18:42:11,830 - __main__ - ERROR - Erro ao processar link 10: name 'upload_to_0x0' is not defined
+2025-08-20 18:42:11,848 - __main__ - INFO - Processando link 11: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 18:42:11,848 - __main__ - INFO - Link 11 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 18:42:11,865 - __main__ - INFO - Processando link 12: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 18:42:11,865 - __main__ - INFO - Link 12 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 18:42:11,925 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 18:42:11,926 - __main__ - INFO - Link 13 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 18:42:11,926 - __main__ - INFO - Processamento concluído. 0 arquivos processados com sucesso
+2025-08-20 18:48:44,267 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-20 18:48:44,268 - WDM - INFO - ====== WebDriver manager ======
+2025-08-20 18:48:45,851 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 18:48:46,412 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-20 18:48:47,042 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-08-20 18:48:47,043 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32\chromedriver.exe
+2025-08-20 18:48:48,634 - __main__ - INFO - Driver configurado com sucesso
+2025-08-20 18:48:48,635 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-20 18:48:55,780 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-20 18:48:55,780 - __main__ - INFO - Analisando estrutura da página...
+2025-08-20 18:48:55,791 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-20 18:48:55,815 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-20 18:48:56,325 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_1_5.pdf (331903 bytes)
+2025-08-20 18:48:59,266 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250820_1_5.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFC260>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:01,538 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-20 18:49:01,916 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_2_5.pdf (347648 bytes)
+2025-08-20 18:49:04,933 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250819_2_5.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFCD40>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:07,392 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-20 18:49:07,836 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_3_4.pdf (158218 bytes)
+2025-08-20 18:49:10,691 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250818_3_4.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFCA70>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:13,310 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-20 18:49:13,752 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_4_4.pdf (381335 bytes)
+2025-08-20 18:49:16,605 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250818_4_4.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFE450>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:19,319 - __main__ - INFO - Processando link 5: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250816_especial_fdfc14ba09092a9d040dafe20e07d3a4.pdf
+2025-08-20 18:49:22,140 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250816_5_3.pdf (190544 bytes)
+2025-08-20 18:49:24,949 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250816_5_3.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFD490>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:26,137 - __main__ - INFO - Processando link 6: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_1f1c3818e7a4738b85de80dd8fe4f1ae.pdf
+2025-08-20 18:49:26,538 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250815_6_3.pdf (365850 bytes)
+2025-08-20 18:49:29,352 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250815_6_3.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFC4D0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:30,635 - __main__ - INFO - Processando link 7: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_3181acb9535b12643e07c5bbd221a851.pdf
+2025-08-20 18:49:31,028 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250814_7_3.pdf (334551 bytes)
+2025-08-20 18:49:33,834 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250814_7_3.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFE990>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:35,580 - __main__ - INFO - Processando link 8: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_de60d201a5c66120318e20bf2a4d7110.pdf
+2025-08-20 18:49:35,984 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250813_8_3.pdf (597475 bytes)
+2025-08-20 18:49:38,786 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250813_8_3.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFF350>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:40,143 - __main__ - INFO - Processando link 9: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_eb90c2647dda78d51a8ecc73b8389e7d.pdf
+2025-08-20 18:49:40,536 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250812_9_3.pdf (300943 bytes)
+2025-08-20 18:49:43,354 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250812_9_3.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFFE00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:46,217 - __main__ - INFO - Processando link 10: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250811_fead416175bea9f25ed3aa71bba595e5.pdf
+2025-08-20 18:49:46,610 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250811_10_3.pdf (387715 bytes)
+2025-08-20 18:49:49,388 - __main__ - ERROR - Erro no upload para transfer.sh: HTTPSConnectionPool(host='transfer.sh', port=443): Max retries exceeded with url: /diario_20250811_10_3.pdf (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D994FFF5F0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente'))
+2025-08-20 18:49:50,915 - __main__ - INFO - Processando link 11: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 18:49:50,916 - __main__ - INFO - Link 11 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-20 18:49:50,931 - __main__ - INFO - Processando link 12: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 18:49:50,931 - __main__ - INFO - Link 12 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-20 18:49:50,947 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 18:49:50,947 - __main__ - INFO - Link 13 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-20 18:49:50,947 - __main__ - INFO - Processamento concluído. 0 arquivos processados com sucesso

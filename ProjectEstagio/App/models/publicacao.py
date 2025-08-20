@@ -7,7 +7,7 @@ class Publicacao(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True, index=True)
     url: Mapped[str] = mapped_column(String(500), unique=True, index=True, nullable=False)
-    competencia: Mapped[str] = mapped_column(String(7), index=True, nullable=False)  # Ex: "2025-07"
+    competencia: Mapped[str] = mapped_column(String(7), index=True, nullable=False)
     data_publicacao: Mapped[Date] = mapped_column(Date, nullable=False)
 
 
