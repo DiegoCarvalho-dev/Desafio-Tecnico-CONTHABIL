@@ -16,7 +16,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from urllib.parse import urljoin, urlparse
 import json
 
-# Configuração de logging SEM EMOJIS
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -27,18 +26,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-API_URL = "http://127.0.0.1:8000/publicacoes/"
+API_URL = "http://localhost:8000/api/publicacoes/"
 
-
-# ---------------------------
-# Setup do navegador - CORRIGIDO
-# ---------------------------
 def setup_driver():
     try:
         options = webdriver.ChromeOptions()
-
-        # Remover headless temporariamente para debugging
-        # options.add_argument("--headless=new")
         options.add_argument("--disable-gpu")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
@@ -47,7 +39,6 @@ def setup_driver():
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option("useAutomationExtension", False)
 
-        # User agents aleatórios
         user_agents = [
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
@@ -67,32 +58,26 @@ def setup_driver():
         }
         options.add_experimental_option("prefs", prefs)
 
-        # CORREÇÃO: Obter o caminho correto do ChromeDriver
         driver_manager = ChromeDriverManager()
         driver_path = driver_manager.install()
 
-        # Verificar se o caminho está correto (deve terminar com .exe)
         if not driver_path.endswith('.exe'):
-            # Procurar o arquivo chromedriver.exe no diretório
             driver_dir = os.path.dirname(driver_path)
             for file in os.listdir(driver_dir):
                 if file.lower() == 'chromedriver.exe':
                     driver_path = os.path.join(driver_dir, file)
                     break
             else:
-                # Se não encontrar, tentar um caminho diferente
                 driver_path = os.path.join(driver_dir, 'chromedriver.exe')
 
         logger.info(f"ChromeDriver path: {driver_path}")
 
-        # Verificar se o arquivo existe
         if not os.path.exists(driver_path):
             raise FileNotFoundError(f"ChromeDriver não encontrado em: {driver_path}")
 
         service = Service(executable_path=driver_path)
         driver = webdriver.Chrome(service=service, options=options)
 
-        # Ocultar automação
         driver.execute_script(
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         )
@@ -104,46 +89,48 @@ def setup_driver():
         logger.error(f"Erro ao configurar driver: {e}")
         raise
 
-
-# ---------------------------
-# Upload PDF no 0x0.st
-# ---------------------------
-def upload_to_transfer_sh(file_path: str) -> str | None:
-    """Upload usando transfer.sh - funciona melhor que 0x0.st"""
+def upload_to_local_server(file_path: str) -> str | None:
     try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
+        import requests
 
         file_name = os.path.basename(file_path)
 
         with open(file_path, "rb") as f:
-            response = requests.put(
-                f"https://transfer.sh/{file_name}",
-                data=f,
-                headers=headers,
-                timeout=60
+            files = {"file": (file_name, f, "application/pdf")}
+
+            response = requests.post(
+                "http://localhost:8001/upload",
+                files=files,
+                timeout=30
             )
 
         if response.status_code == 200:
-            return response.text.strip()
-        logger.error(f"Falha ao enviar para transfer.sh: {response.status_code} - {response.text}")
-        return None
+            data = response.json()
+            file_url = data["url"]
+            logger.info(f"Upload local bem-sucedido: {file_url}")
+            return file_url
+        else:
+            logger.error(f"Erro no upload local: {response.text}")
+            return None
+
     except Exception as e:
-        logger.error(f"Erro no upload para transfer.sh: {e}")
+        logger.error(f"Erro de conexão com servidor local: {e}")
         return None
 
-# ---------------------------
-# Upload PDF (função principal atualizada)
-# ---------------------------
+
 def upload_file(file_path: str) -> str | None:
-    """Função principal de upload - usa transfer.sh"""
-    return upload_to_transfer_sh(file_path)
+    try:
+        url_publica = upload_to_local_server(file_path)
+        if url_publica:
+            logger.info(f"Upload local bem-sucedido: {url_publica}")
+            return url_publica
+        else:
+            logger.error("Falha no upload local")
+            return None
+    except Exception as e:
+        logger.error(f"Erro no upload: {e}")
+        return None
 
-
-# ---------------------------
-# Registrar publicação na API
-# ---------------------------
 def create_publicacao(url: str, competencia: str, data_publicacao: str, titulo: str = ""):
     try:
         payload = {
@@ -164,9 +151,6 @@ def create_publicacao(url: str, competencia: str, data_publicacao: str, titulo: 
         return False
 
 
-# ---------------------------
-# Download PDF
-# ---------------------------
 def download_pdf(url: str, download_dir: str, file_name: str) -> str | None:
     try:
         headers = {
@@ -176,7 +160,6 @@ def download_pdf(url: str, download_dir: str, file_name: str) -> str | None:
         response = requests.get(url, headers=headers, stream=True, timeout=60)
         response.raise_for_status()
 
-        # Verificar se é realmente um PDF
         content_type = response.headers.get('content-type', '')
         if 'pdf' not in content_type.lower():
             logger.warning(f"URL não é um PDF: {content_type}")
@@ -184,7 +167,6 @@ def download_pdf(url: str, download_dir: str, file_name: str) -> str | None:
 
         file_path = os.path.join(download_dir, file_name)
 
-        # Garantir nome de arquivo único
         counter = 1
         base_name, ext = os.path.splitext(file_path)
         while os.path.exists(file_path):
@@ -196,7 +178,6 @@ def download_pdf(url: str, download_dir: str, file_name: str) -> str | None:
                 if chunk:
                     f.write(chunk)
 
-        # Verificar se o arquivo foi baixado corretamente
         if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
             logger.info(f"PDF baixado: {file_path} ({os.path.getsize(file_path)} bytes)")
             return file_path
@@ -208,13 +189,8 @@ def download_pdf(url: str, download_dir: str, file_name: str) -> str | None:
         logger.error(f"Erro ao baixar PDF de {url}: {e}")
         return None
 
-
-# ---------------------------
-# Extrair data do título/nome do arquivo
-# ---------------------------
 def extract_date_from_text(text: str) -> str:
     try:
-        # Padrões comuns de datas em diários oficiais
         patterns = [
             r'(\d{2})/(\d{2})/(\d{4})',
             r'(\d{2})-(\d{2})-(\d{4})',
@@ -227,12 +203,11 @@ def extract_date_from_text(text: str) -> str:
             if match:
                 groups = match.groups()
                 if len(groups) == 3:
-                    if len(groups[2]) == 4:  # AAAA
+                    if len(groups[2]) == 4:
                         return f"{groups[2]}-{groups[1].zfill(2)}-{groups[0].zfill(2)}"
                     else:  # DD/MM/AA
                         return f"20{groups[2]}-{groups[1].zfill(2)}-{groups[0].zfill(2)}"
 
-        # Se não encontrar data, usar data atual
         return datetime.now().strftime("%Y-%m-%d")
 
     except Exception as e:
@@ -240,9 +215,6 @@ def extract_date_from_text(text: str) -> str:
         return datetime.now().strftime("%Y-%m-%d")
 
 
-# ---------------------------
-# Obter mês anterior
-# ---------------------------
 def get_previous_month():
     today = datetime.now()
     first_day = today.replace(day=1)
@@ -250,30 +222,23 @@ def get_previous_month():
     return previous_month.strftime("%m/%Y")
 
 
-# ---------------------------
-# Scraper principal simplificado
-# ---------------------------
 def scrape_diarios(driver, month_year: str, download_dir: str):
     try:
         logger.info("Acessando site da prefeitura de Natal...")
         driver.get("https://www.natal.rn.gov.br/dom")
 
-        # Aguardar carregamento
         WebDriverWait(driver, 30).until(
             EC.presence_of_element_located((By.TAG_NAME, "body"))
         )
         time.sleep(3)
 
-        # Salvar página para análise
         page_source = driver.page_source
         with open("page_source.html", "w", encoding="utf-8") as f:
             f.write(page_source)
         logger.info("Pagina salva em page_source.html para analise")
 
-        # Analisar a estrutura da página
         logger.info("Analisando estrutura da página...")
 
-        # Procurar todos os links PDF
         pdf_links = driver.find_elements(By.XPATH, "//a[contains(@href, '.pdf')]")
         logger.info(f"Encontrados {len(pdf_links)} links PDF")
 
@@ -288,32 +253,25 @@ def scrape_diarios(driver, month_year: str, download_dir: str):
 
                 logger.info(f"Processando link {i + 1}: {href}")
 
-                # FILTRAR: Apenas links que contenham "dom_" no caminho (diários oficiais)
                 if (href and href.lower().endswith('.pdf') and
                         '/dom/' in href.lower() and
                         'dom_' in href.lower()):
 
-                    # Extrair data do texto do link ou do URL
                     data_publicacao = extract_date_from_text(link_text or href)
 
-                    # Nome do arquivo mais descritivo
                     file_name = f"diario_{data_publicacao.replace('-', '')}_{i + 1}.pdf"
 
-                    # Download do PDF
                     file_path = download_pdf(href, download_dir, file_name)
 
                     if file_path:
-                        # Upload para serviço de arquivos (agora usando transfer.sh)
-                        uploaded_url = upload_file(file_path)  # ← LINHA CORRIGIDA
-
+                        uploaded_url = upload_file(file_path)
                         if uploaded_url:
-                            # Registrar no banco
                             success = create_publicacao(uploaded_url, competencia, data_publicacao, link_text)
                             if success:
                                 processed_count += 1
                                 logger.info(f"Arquivo {i + 1} processado com sucesso!")
 
-                    # Delay entre requisições
+
                     time.sleep(random.uniform(1, 3))
                 else:
                     logger.info(f"Link {i + 1} ignorado (não é diário oficial): {href}")
@@ -332,9 +290,6 @@ def scrape_diarios(driver, month_year: str, download_dir: str):
             driver.quit()
 
 
-# ---------------------------
-# Executar
-# ---------------------------
 def run_scraper(month_year=None):
     if month_year is None:
         month_year = get_previous_month()
@@ -349,4 +304,4 @@ def run_scraper(month_year=None):
 
 
 if __name__ == "__main__":
-    run_scraper("08/2024")  # Usar mês atual para teste
+    run_scraper("08/2024")

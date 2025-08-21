@@ -14,7 +14,6 @@ router = APIRouter(prefix="/publicacoes", tags=["publicações"])
 
 @router.post("/", response_model=PublicacaoOut, status_code=status.HTTP_201_CREATED)
 def post_publicacao(payload: PublicacaoCreate, db: Session = Depends(get_db)):
-
     pub = criar_publicacao(db, payload)
     return pub
 
@@ -25,7 +24,6 @@ def get_publicacoes(
     offset: int = Query(default=0, ge=0),
     db: Session = Depends(get_db),
 ):
-
     if competencia:
         return filtrar_por_competencia(db, competencia, limit, offset)
     return listar_publicacoes(db, limit, offset)

@@ -1,1 +1,1 @@
-from .publicacoes import router as publicacoes_router
+from .publicacao import router as publicacao_router
