@@ -1,4 +1,3 @@
-# local_server.py
 import os
 import uvicorn
 from fastapi import FastAPI, UploadFile, File, HTTPException

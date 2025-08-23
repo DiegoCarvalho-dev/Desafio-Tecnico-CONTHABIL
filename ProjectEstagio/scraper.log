@@ -2231,3 +2231,263 @@ Stacktrace:
 2025-08-21 14:40:07,080 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
 2025-08-21 14:40:07,080 - __main__ - INFO - Link 13 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
 2025-08-21 14:40:07,081 - __main__ - INFO - Processamento concluído. 10 arquivos processados com sucesso
+2025-08-21 16:52:27,838 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-21 16:52:27,839 - WDM - INFO - ====== WebDriver manager ======
+2025-08-21 16:52:29,535 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 16:52:30,306 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-21 16:52:31,068 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-21 16:52:31,069 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe
+2025-08-21 16:52:34,717 - __main__ - INFO - Driver configurado com sucesso
+2025-08-21 16:52:34,718 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-21 16:52:40,312 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-21 16:52:40,313 - __main__ - INFO - Analisando estrutura da página...
+2025-08-21 16:52:40,341 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-21 16:52:40,412 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_0ebf19724fcea8372d8b5594aef93e80.pdf
+2025-08-21 16:52:41,390 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250821_1_10.pdf (305213 bytes)
+2025-08-21 16:52:43,490 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250821_1_10.pdf
+2025-08-21 16:52:43,491 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250821_1_10.pdf
+2025-08-21 16:52:43,536 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250821_1_10.pdf
+2025-08-21 16:52:43,536 - __main__ - INFO - Arquivo 1 processado com sucesso!
+2025-08-21 16:52:46,538 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-21 16:52:47,564 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_2_10.pdf (331903 bytes)
+2025-08-21 16:52:49,691 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250820_2_10.pdf
+2025-08-21 16:52:49,736 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250820_2_10.pdf
+2025-08-21 16:52:49,860 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250820_2_10.pdf
+2025-08-21 16:52:49,863 - __main__ - INFO - Arquivo 2 processado com sucesso!
+2025-08-21 16:52:52,148 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-21 16:52:53,548 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_3_10.pdf (347648 bytes)
+2025-08-21 16:52:55,706 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250819_3_10.pdf
+2025-08-21 16:52:55,708 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250819_3_10.pdf
+2025-08-21 16:52:55,749 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250819_3_10.pdf
+2025-08-21 16:52:55,751 - __main__ - INFO - Arquivo 3 processado com sucesso!
+2025-08-21 16:52:56,895 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-21 16:52:57,587 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_4_25.pdf (158218 bytes)
+2025-08-21 16:52:59,668 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_4_25.pdf
+2025-08-21 16:52:59,668 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_4_25.pdf
+2025-08-21 16:52:59,708 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250818_4_25.pdf
+2025-08-21 16:52:59,708 - __main__ - INFO - Arquivo 4 processado com sucesso!
+2025-08-21 16:53:02,096 - __main__ - INFO - Processando link 5: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-21 16:53:02,861 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_5_10.pdf (381335 bytes)
+2025-08-21 16:53:04,959 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_5_10.pdf
+2025-08-21 16:53:04,960 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_5_10.pdf
+2025-08-21 16:53:04,994 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250818_5_10.pdf
+2025-08-21 16:53:04,995 - __main__ - INFO - Arquivo 5 processado com sucesso!
+2025-08-21 16:53:07,928 - __main__ - INFO - Processando link 6: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250816_especial_fdfc14ba09092a9d040dafe20e07d3a4.pdf
+2025-08-21 16:53:08,524 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250816_6_10.pdf (190544 bytes)
+2025-08-21 16:53:10,619 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250816_6_10.pdf
+2025-08-21 16:53:10,620 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250816_6_10.pdf
+2025-08-21 16:53:10,651 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250816_6_10.pdf
+2025-08-21 16:53:10,651 - __main__ - INFO - Arquivo 6 processado com sucesso!
+2025-08-21 16:53:12,662 - __main__ - INFO - Processando link 7: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_1f1c3818e7a4738b85de80dd8fe4f1ae.pdf
+2025-08-21 16:53:13,370 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250815_7_10.pdf (365850 bytes)
+2025-08-21 16:53:15,477 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250815_7_10.pdf
+2025-08-21 16:53:15,479 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250815_7_10.pdf
+2025-08-21 16:53:15,507 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250815_7_10.pdf
+2025-08-21 16:53:15,507 - __main__ - INFO - Arquivo 7 processado com sucesso!
+2025-08-21 16:53:18,139 - __main__ - INFO - Processando link 8: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_3181acb9535b12643e07c5bbd221a851.pdf
+2025-08-21 16:53:18,859 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250814_8_10.pdf (334551 bytes)
+2025-08-21 16:53:20,952 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250814_8_10.pdf
+2025-08-21 16:53:20,954 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250814_8_10.pdf
+2025-08-21 16:53:20,981 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250814_8_10.pdf
+2025-08-21 16:53:20,982 - __main__ - INFO - Arquivo 8 processado com sucesso!
+2025-08-21 16:53:22,434 - __main__ - INFO - Processando link 9: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_de60d201a5c66120318e20bf2a4d7110.pdf
+2025-08-21 16:53:23,213 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250813_9_10.pdf (597475 bytes)
+2025-08-21 16:53:25,344 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250813_9_10.pdf
+2025-08-21 16:53:25,344 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250813_9_10.pdf
+2025-08-21 16:53:25,377 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250813_9_10.pdf
+2025-08-21 16:53:25,379 - __main__ - INFO - Arquivo 9 processado com sucesso!
+2025-08-21 16:53:26,584 - __main__ - INFO - Processando link 10: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_eb90c2647dda78d51a8ecc73b8389e7d.pdf
+2025-08-21 16:53:27,234 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250812_10_10.pdf (300943 bytes)
+2025-08-21 16:53:29,336 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250812_10_10.pdf
+2025-08-21 16:53:29,336 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250812_10_10.pdf
+2025-08-21 16:53:29,364 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250812_10_10.pdf
+2025-08-21 16:53:29,365 - __main__ - INFO - Arquivo 10 processado com sucesso!
+2025-08-21 16:53:32,062 - __main__ - INFO - Processando link 11: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-21 16:53:32,062 - __main__ - INFO - Link 11 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-21 16:53:32,085 - __main__ - INFO - Processando link 12: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-21 16:53:32,085 - __main__ - INFO - Link 12 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-21 16:53:32,109 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-21 16:53:32,109 - __main__ - INFO - Link 13 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-21 16:53:32,109 - __main__ - INFO - Processamento concluído. 10 arquivos processados com sucesso
+2025-08-22 09:03:53,063 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-22 09:03:53,064 - WDM - INFO - ====== WebDriver manager ======
+2025-08-22 09:03:54,516 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-22 09:03:55,200 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-22 09:03:55,882 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-22 09:03:57,235 - WDM - INFO - WebDriver version 139.0.7258.138 selected
+2025-08-22 09:03:57,240 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/win32/chromedriver-win32.zip
+2025-08-22 09:03:57,240 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.138/win32/chromedriver-win32.zip
+2025-08-22 09:03:57,929 - WDM - INFO - Driver downloading response is 200
+2025-08-22 09:03:58,636 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-22 09:04:00,790 - WDM - INFO - Driver has been saved in cache [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138]
+2025-08-22 09:04:00,794 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe
+2025-08-22 09:04:05,280 - __main__ - INFO - Driver configurado com sucesso
+2025-08-22 09:04:05,280 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-22 09:04:10,061 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-22 09:04:10,061 - __main__ - INFO - Analisando estrutura da página...
+2025-08-22 09:04:10,074 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-22 09:04:10,175 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250822_d5797b90a588529fe5495c77a8524bb7.pdf
+2025-08-22 09:04:10,691 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250822_1.pdf (414346 bytes)
+2025-08-22 09:04:12,782 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250822_1.pdf
+2025-08-22 09:04:12,783 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250822_1.pdf
+2025-08-22 09:04:14,836 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250822_1.pdf
+2025-08-22 09:04:14,836 - __main__ - INFO - Arquivo 1 processado com sucesso!
+2025-08-22 09:04:17,764 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_0ebf19724fcea8372d8b5594aef93e80.pdf
+2025-08-22 09:04:18,450 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250821_2.pdf (305213 bytes)
+2025-08-22 09:04:20,541 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250821_2.pdf
+2025-08-22 09:04:20,544 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250821_2.pdf
+2025-08-22 09:04:22,579 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250821_2.pdf
+2025-08-22 09:04:22,582 - __main__ - INFO - Arquivo 2 processado com sucesso!
+2025-08-22 09:04:24,872 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-22 09:04:25,592 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_3.pdf (331903 bytes)
+2025-08-22 09:04:27,670 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250820_3.pdf
+2025-08-22 09:04:27,670 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250820_3.pdf
+2025-08-22 09:04:29,712 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250820_3.pdf
+2025-08-22 09:04:29,713 - __main__ - INFO - Arquivo 3 processado com sucesso!
+2025-08-22 09:04:32,568 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-22 09:04:33,241 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_4.pdf (347648 bytes)
+2025-08-22 09:04:35,367 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250819_4.pdf
+2025-08-22 09:04:35,396 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250819_4.pdf
+2025-08-22 09:04:37,444 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250819_4.pdf
+2025-08-22 09:04:37,445 - __main__ - INFO - Arquivo 4 processado com sucesso!
+2025-08-22 09:04:39,127 - __main__ - INFO - Processando link 5: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-22 09:04:39,812 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_5_11.pdf (158218 bytes)
+2025-08-22 09:04:41,873 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_5_11.pdf
+2025-08-22 09:04:41,873 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_5_11.pdf
+2025-08-22 09:04:43,935 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250818_5_11.pdf
+2025-08-22 09:04:43,935 - __main__ - INFO - Arquivo 5 processado com sucesso!
+2025-08-22 09:04:45,868 - __main__ - INFO - Processando link 6: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-22 09:04:46,480 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_6.pdf (381335 bytes)
+2025-08-22 09:04:48,565 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_6.pdf
+2025-08-22 09:04:48,565 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_6.pdf
+2025-08-22 09:04:50,851 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250818_6.pdf
+2025-08-22 09:04:50,879 - __main__ - INFO - Arquivo 6 processado com sucesso!
+2025-08-22 09:04:53,273 - __main__ - INFO - Processando link 7: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250816_especial_fdfc14ba09092a9d040dafe20e07d3a4.pdf
+2025-08-22 09:04:54,068 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250816_7.pdf (190544 bytes)
+2025-08-22 09:04:56,134 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250816_7.pdf
+2025-08-22 09:04:56,135 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250816_7.pdf
+2025-08-22 09:04:58,181 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250816_7.pdf
+2025-08-22 09:04:58,181 - __main__ - INFO - Arquivo 7 processado com sucesso!
+2025-08-22 09:05:00,707 - __main__ - INFO - Processando link 8: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_1f1c3818e7a4738b85de80dd8fe4f1ae.pdf
+2025-08-22 09:05:01,622 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250815_8.pdf (365850 bytes)
+2025-08-22 09:05:03,719 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250815_8.pdf
+2025-08-22 09:05:03,720 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250815_8.pdf
+2025-08-22 09:05:06,681 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250815_8.pdf
+2025-08-22 09:05:06,766 - __main__ - INFO - Arquivo 8 processado com sucesso!
+2025-08-22 09:05:09,619 - __main__ - INFO - Processando link 9: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_3181acb9535b12643e07c5bbd221a851.pdf
+2025-08-22 09:05:10,280 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250814_9.pdf (334551 bytes)
+2025-08-22 09:05:12,353 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250814_9.pdf
+2025-08-22 09:05:12,354 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250814_9.pdf
+2025-08-22 09:05:14,426 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250814_9.pdf
+2025-08-22 09:05:14,426 - __main__ - INFO - Arquivo 9 processado com sucesso!
+2025-08-22 09:05:16,102 - __main__ - INFO - Processando link 10: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_de60d201a5c66120318e20bf2a4d7110.pdf
+2025-08-22 09:05:16,867 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250813_10.pdf (597475 bytes)
+2025-08-22 09:05:18,940 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250813_10.pdf
+2025-08-22 09:05:18,941 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250813_10.pdf
+2025-08-22 09:05:21,094 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250813_10.pdf
+2025-08-22 09:05:21,108 - __main__ - INFO - Arquivo 10 processado com sucesso!
+2025-08-22 09:05:23,210 - __main__ - INFO - Processando link 11: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-22 09:05:23,211 - __main__ - INFO - Link 11 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-22 09:05:23,249 - __main__ - INFO - Processando link 12: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-22 09:05:23,250 - __main__ - INFO - Link 12 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-22 09:05:23,292 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-22 09:05:23,295 - __main__ - INFO - Link 13 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-22 09:05:23,296 - __main__ - INFO - Processamento concluído. 10 arquivos processados com sucesso
+2025-08-22 17:02:41,105 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-22 17:02:41,107 - __main__ - ERROR - Erro ao configurar driver: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-08-22 17:02:41,107 - __main__ - ERROR - Erro fatal: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+Traceback (most recent call last):
+  File "C:\Project\ProjectEstagio\app\services\scraper.py", line 275, in run_scraper
+    driver, download_dir = setup_driver()
+                           ^^^^^^^^^^^^^^
+  File "C:\Project\ProjectEstagio\app\services\scraper.py", line 54, in setup_driver
+    driver = webdriver.Chrome(service=service, options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Project\ProjectEstagio\.venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Project\ProjectEstagio\.venv\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 51, in __init__
+    self.service.path = DriverFinder.get_path(self.service, options)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Project\ProjectEstagio\.venv\Lib\site-packages\selenium\webdriver\common\driver_finder.py", line 44, in get_path
+    raise NoSuchDriverException(f"Unable to locate or obtain driver for {options.capabilities['browserName']}")
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-08-22 19:20:54,747 - __main__ - INFO - Iniciando scraper para 08/2024
+2025-08-22 19:20:54,749 - WDM - INFO - ====== WebDriver manager ======
+2025-08-22 19:20:56,333 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-22 19:20:57,068 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-08-22 19:20:57,621 - WDM - INFO - Driver [C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe] found in cache
+2025-08-22 19:20:57,621 - __main__ - INFO - ChromeDriver path: C:\Users\carvd\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32/chromedriver.exe
+2025-08-22 19:21:01,178 - __main__ - INFO - Driver configurado com sucesso
+2025-08-22 19:21:01,178 - __main__ - INFO - Acessando site da prefeitura de Natal...
+2025-08-22 19:21:05,944 - __main__ - INFO - Pagina salva em page_source.html para analise
+2025-08-22 19:21:05,944 - __main__ - INFO - Analisando estrutura da página...
+2025-08-22 19:21:05,961 - __main__ - INFO - Encontrados 13 links PDF
+2025-08-22 19:21:06,104 - __main__ - INFO - Processando link 1: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250822_d5797b90a588529fe5495c77a8524bb7.pdf
+2025-08-22 19:21:06,797 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250822_1_1.pdf (414346 bytes)
+2025-08-22 19:21:08,876 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250822_1_1.pdf
+2025-08-22 19:21:08,877 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250822_1_1.pdf
+2025-08-22 19:21:10,957 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250822_1_1.pdf
+2025-08-22 19:21:10,958 - __main__ - INFO - Arquivo 1 processado com sucesso!
+2025-08-22 19:21:12,625 - __main__ - INFO - Processando link 2: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_0ebf19724fcea8372d8b5594aef93e80.pdf
+2025-08-22 19:21:13,428 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250821_2_1.pdf (305213 bytes)
+2025-08-22 19:21:15,506 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250821_2_1.pdf
+2025-08-22 19:21:15,507 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250821_2_1.pdf
+2025-08-22 19:21:17,572 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250821_2_1.pdf
+2025-08-22 19:21:17,785 - __main__ - INFO - Arquivo 2 processado com sucesso!
+2025-08-22 19:21:19,875 - __main__ - INFO - Processando link 3: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250820_5de1ddf05b4ad67f4fc5e4b00d9705dc.pdf
+2025-08-22 19:21:20,586 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250820_3_1.pdf (331903 bytes)
+2025-08-22 19:21:22,655 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250820_3_1.pdf
+2025-08-22 19:21:22,656 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250820_3_1.pdf
+2025-08-22 19:21:24,686 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250820_3_1.pdf
+2025-08-22 19:21:24,687 - __main__ - INFO - Arquivo 3 processado com sucesso!
+2025-08-22 19:21:25,995 - __main__ - INFO - Processando link 4: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_36ddc93fe95c3b1dd3f0b72d74787b05.pdf
+2025-08-22 19:21:26,578 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250819_4_1.pdf (347648 bytes)
+2025-08-22 19:21:28,665 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250819_4_1.pdf
+2025-08-22 19:21:28,666 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250819_4_1.pdf
+2025-08-22 19:21:30,692 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250819_4_1.pdf
+2025-08-22 19:21:30,692 - __main__ - INFO - Arquivo 4 processado com sucesso!
+2025-08-22 19:21:33,502 - __main__ - INFO - Processando link 5: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_extra_2dc6b2a8198f5bc8191f0f4e4c1b4f81.pdf
+2025-08-22 19:21:34,306 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_5_12.pdf (158218 bytes)
+2025-08-22 19:21:36,377 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_5_12.pdf
+2025-08-22 19:21:36,378 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_5_12.pdf
+2025-08-22 19:21:38,435 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250818_5_12.pdf
+2025-08-22 19:21:38,436 - __main__ - INFO - Arquivo 5 processado com sucesso!
+2025-08-22 19:21:40,021 - __main__ - INFO - Processando link 6: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250818_dd50738bd8688183029ea326275369bc.pdf
+2025-08-22 19:21:40,595 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250818_6_1.pdf (381335 bytes)
+2025-08-22 19:21:42,681 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_6_1.pdf
+2025-08-22 19:21:42,682 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250818_6_1.pdf
+2025-08-22 19:21:44,727 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250818_6_1.pdf
+2025-08-22 19:21:44,728 - __main__ - INFO - Arquivo 6 processado com sucesso!
+2025-08-22 19:21:47,702 - __main__ - INFO - Processando link 7: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250816_especial_fdfc14ba09092a9d040dafe20e07d3a4.pdf
+2025-08-22 19:21:48,620 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250816_7_1.pdf (190544 bytes)
+2025-08-22 19:21:50,683 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250816_7_1.pdf
+2025-08-22 19:21:50,683 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250816_7_1.pdf
+2025-08-22 19:21:52,749 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250816_7_1.pdf
+2025-08-22 19:21:52,750 - __main__ - INFO - Arquivo 7 processado com sucesso!
+2025-08-22 19:21:53,850 - __main__ - INFO - Processando link 8: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_1f1c3818e7a4738b85de80dd8fe4f1ae.pdf
+2025-08-22 19:21:54,365 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250815_8_1.pdf (365850 bytes)
+2025-08-22 19:21:56,471 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250815_8_1.pdf
+2025-08-22 19:21:56,471 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250815_8_1.pdf
+2025-08-22 19:21:58,535 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250815_8_1.pdf
+2025-08-22 19:21:58,535 - __main__ - INFO - Arquivo 8 processado com sucesso!
+2025-08-22 19:21:59,997 - __main__ - INFO - Processando link 9: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250814_3181acb9535b12643e07c5bbd221a851.pdf
+2025-08-22 19:22:00,619 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250814_9_1.pdf (334551 bytes)
+2025-08-22 19:22:02,724 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250814_9_1.pdf
+2025-08-22 19:22:02,725 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250814_9_1.pdf
+2025-08-22 19:22:04,781 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250814_9_1.pdf
+2025-08-22 19:22:04,782 - __main__ - INFO - Arquivo 9 processado com sucesso!
+2025-08-22 19:22:06,433 - __main__ - INFO - Processando link 10: https://natal.rn.gov.br/storage/app/media/DOM/anexos/dom_20250812_de60d201a5c66120318e20bf2a4d7110.pdf
+2025-08-22 19:22:07,059 - __main__ - INFO - PDF baixado: C:\Project\ProjectEstagio\data\pdfs\diario_20250813_10_1.pdf (597475 bytes)
+2025-08-22 19:22:09,160 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250813_10_1.pdf
+2025-08-22 19:22:09,160 - __main__ - INFO - Upload local bem-sucedido: http://localhost:8000/files/diario_20250813_10_1.pdf
+2025-08-22 19:22:11,229 - __main__ - INFO - Publicacao salva: http://localhost:8000/files/diario_20250813_10_1.pdf
+2025-08-22 19:22:11,230 - __main__ - INFO - Arquivo 10 processado com sucesso!
+2025-08-22 19:22:12,322 - __main__ - INFO - Processando link 11: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-22 19:22:12,322 - __main__ - INFO - Link 11 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/feriados_pontos_facultativos_2020.pdf
+2025-08-22 19:22:12,344 - __main__ - INFO - Processando link 12: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-22 19:22:12,344 - __main__ - INFO - Link 12 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/Urbana-CalendarioColetaDomiciliar2011.pdf
+2025-08-22 19:22:12,366 - __main__ - INFO - Processando link 13: https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-22 19:22:12,366 - __main__ - INFO - Link 13 ignorado (não é diário oficial): https://www.natal.rn.gov.br/storage/app/media/cidad%C3%A3o/SSTU-Plano_de_Comunicacao_Plano_Mobilidade.pdf
+2025-08-22 19:22:12,366 - __main__ - INFO - Processamento concluído. 10 arquivos processados com sucesso

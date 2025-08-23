@@ -7,14 +7,10 @@ import re
 from datetime import datetime, timedelta
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
-from urllib.parse import urljoin, urlparse
-import json
 
 logging.basicConfig(
     level=logging.INFO,
@@ -58,6 +54,7 @@ def setup_driver():
         }
         options.add_experimental_option("prefs", prefs)
 
+        from webdriver_manager.chrome import ChromeDriverManager
         driver_manager = ChromeDriverManager()
         driver_path = driver_manager.install()
 

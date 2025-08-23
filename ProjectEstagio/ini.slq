@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS files (
+    id SERIAL PRIMARY KEY,
+    url TEXT NOT NULL,
+    competencia VARCHAR(7) NOT NULL,
+    data_publicacao DATE NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
