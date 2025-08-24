@@ -1,2 +1,2 @@
-from app.database import Base  # reexporta Base
+from App.database import Base
 from .publicacao import Publicacao

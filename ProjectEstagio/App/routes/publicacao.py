@@ -1,9 +1,9 @@
 from typing import List, Optional
 from fastapi import APIRouter, Depends, Query, HTTPException, status
 from sqlalchemy.orm import Session
-from app.database import get_db
-from app.schemas import PublicacaoCreate, PublicacaoOut
-from app.crud import (
+from App.database import get_db
+from App.schemas import PublicacaoCreate, PublicacaoOut
+from App.crud import (
     criar_publicacao,
     listar_publicacoes,
     filtrar_por_competencia,

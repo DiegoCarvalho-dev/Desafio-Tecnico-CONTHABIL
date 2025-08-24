@@ -1,6 +1,6 @@
 from sqlalchemy import String, Date, func, DateTime
 from sqlalchemy.orm import Mapped, mapped_column
-from app.database import Base
+from App.database import Base
 
 class Publicacao(Base):
     __tablename__ = "publicacoes"

@@ -1,8 +1,8 @@
 from typing import List, Optional
 from sqlalchemy.orm import Session
 from sqlalchemy import select
-from app.models.publicacao import Publicacao
-from app.schemas.publicacao import PublicacaoCreate
+from App.models.publicacao import Publicacao
+from App.schemas.publicacao import PublicacaoCreate
 
 def criar_publicacao(db: Session, dados: PublicacaoCreate) -> Publicacao:
 
