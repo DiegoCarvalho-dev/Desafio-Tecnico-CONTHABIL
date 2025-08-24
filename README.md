@@ -111,12 +111,15 @@ Senha: admin
 
 # Execute os serviços em terminais separados
 - Terminal 1 - API Principal:
+  
 uvicorn App.main:app --reload --host 0.0.0.0 --port 8000
 
 - Terminal 2 - Servidor de Arquivos:
+  
 python App/local_server.py
 
 - Terminal 3 - Scraper:
+  
 python -m App.services.scraper
 
 # Acesse os serviços
